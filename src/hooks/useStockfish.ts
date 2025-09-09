@@ -16,8 +16,6 @@ export function useStockfish() {
       }
     };
 
-    worker.postMessage("uci");
-
     return () => {
       worker.terminate();
     };
