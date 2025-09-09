@@ -10,7 +10,6 @@ function App() {
       <Button onClick={() => postMessage("uci")}>
         Send UCI Command to Stockfish
       </Button>
-      {/* Utilisez postMessage("commande") pour envoyer des commandes à Stockfish */}
     </>
   );
 }
